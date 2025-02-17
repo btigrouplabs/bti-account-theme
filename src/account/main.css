@@ -1,0 +1,158 @@
+.pf-v5-c-page__main-section {
+    background-color: black !important;
+}
+.pf-v5-c-content {
+    color: white !important;
+}
+.pf-v5-l-grid__item {
+    color: white !important;
+}
+.pf-v5-c-form__label-text {
+    color: #acacac !important;
+}
+.pf-v5-c-menu-toggle__text {
+    color: white !important;
+}
+.pf-v5-c-menu-toggle {
+    background-color: #131313 !important;
+    border-color: #535353 !important;
+}
+.pf-v5-c-menu-toggle__toggle-icon {
+    color: white !important;
+}
+.pf-v5-c-jump-links {
+    display: none !important;
+}
+input {
+    display: flex !important;
+    height: 40px !important;
+    padding: 12px !important;
+    align-items: center !important;
+    gap: 8px !important;
+    align-self: stretch !important;
+    border-radius: 6px !important;
+    border: 1px solid #535353 !important;
+    background: #131313 !important;
+    color: white !important;
+}
+.pf-v5-c-form-control {
+    background: none !important;
+}
+.pf-v5-c-form-control::before {
+    border-radius: 6px !important;
+    border: 1px solid #535353 !important;
+}
+.pf-v5-c-form-control::after {
+    border-block-end: none !important;
+}
+
+.pf-v5-c-button.pf-m-primary {
+    display: flex !important;
+    max-width: 122px !important;
+    padding: 6px 16px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 6px !important;
+    background: #1cf800 !important;
+    color: black !important;
+    font-weight: 600 !important;
+}
+.pf-v5-c-button.pf-m-link {
+    color: #acacac !important;
+}
+p {
+    color: #acacac !important;
+}
+.pf-v5-c-title {
+    color: white !important;
+}
+
+.pf-v5-l-split__item > span {
+    color: #acacac !important;
+}
+
+.pf-v5-c-data-list__item {
+    background-color: black !important;
+    border-color: #535353 !important;
+}
+.pf-v5-c-data-list.pf-m-grid-md {
+    border-color: #535353 !important;
+}
+.pf-v5-c-data-list__cell {
+    color: #acacac !important;
+}
+.pf-v5-u-max-width {
+    color: white !important;
+}
+.pf-v5-c-button.pf-m-secondary {
+    color: #1cf800 !important;
+    border-color: #1cf800 !important;
+    --pf-v5-c-button--after--BorderColor: #1cf800 !important;
+}
+.pf-v5-u-float-right > .pf-v5-c-button.pf-m-link {
+    color: #1cf800 !important;
+}
+.pf-v5-c-label.pf-m-green {
+    border-radius: 4px !important;
+    background: rgba(25, 218, 0, 0.3);
+    --pf-v5-c-label--BorderRadius: 4px !important;
+    --pf-v5-c-label__content--before--BorderWidth: none !important;
+}
+.pf-v5-c-label__content {
+    color: #1cf800 !important;
+    border: none !important;
+}
+.session-title {
+    color: #acacac !important;
+}
+.pf-v5-c-description-list__description > .pf-v5-c-description-list__text {
+    color: #acacac !important;
+}
+
+#refresh-page {
+    color: #1cf800 !important;
+}
+
+.pf-v5-c-data-list__cell > .pf-v5-c-button.pf-m-link {
+    color: #1cf800 !important;
+}
+.pf-v5-c-description-list__term > .pf-v5-c-description-list__text {
+    color: white !important;
+}
+.pf-v5-c-toolbar {
+    background: none !important;
+}
+.pf-v5-c-input-group {
+    background-color: black !important;
+}
+.pf-v5-c-button {
+    --pf-v5-c-button--m-control--after--BorderWidth: none !important;
+}
+.pf-v5-c-text-input-group__main {
+    background-color: black;
+    color:white !important;
+    --pf-v5-c-text-input-group__text--before--BorderWidth : none;
+    --pf-v5-c-text-input-group__text--after--BorderBottomWidth : none;
+}
+.pf-v5-c-text-input-group__text > input {
+    background-color: black !important;
+    /* --pf-v5-c-text-input-group__text--focus-within--after--BorderBottomColor */
+}
+.pf-v5-c-text-input-group {
+    --pf-v5-c-text-input-group__text--focus-within--after--BorderBottomWidth: none !important;
+    --pf-v5-c-text-input-group__text--focus-within--after--BorderBottomColor: none !important;
+}
+.pf-v5-c-input-group__item > button {
+    background-color: black !important;
+    color: white !important;
+}
+.pf-v5-c-text-input-group__text > .pf-v5-c-text-input-group__text-input {
+    border:0 !important;
+}
+.pf-v5-c-text-input-group {
+    background-color: black !important;
+}
+.pf-v5-c-text-input-group__utilities {
+    background-color: black;
+}
