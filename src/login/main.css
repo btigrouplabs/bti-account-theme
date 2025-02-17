@@ -1,0 +1,78 @@
+.kcFormCardClass {
+    border-radius: 12px;
+    border: 3px solid var(--Secondary-Modal, #212121);
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 250px -1px rgba(172, 172, 172, 0.3);
+    backdrop-filter: blur(6.099999904632568px);
+}
+
+.kcFormHeaderClass h1 {
+    font-weight: 600;
+}
+
+.kcLabelClass {
+    color: #acacac;
+}
+
+.kcInfoAreaWrapperClass {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.kcInfoAreaWrapperClass a {
+    color: #1cf800 !important;
+}
+
+.kcBodyClass {
+    color: white;
+}
+
+.kcButtonClass {
+    font-weight: 500;
+    color: black !important;
+    background-color: #1cf800 !important;
+}
+
+.kcFormOptionsWrapperClass a {
+    color: #1cf800 !important;
+}
+
+.kcInputGroup {
+    display: flex;
+    height: 40px;
+    max-width: 682px;
+    padding: 12px;
+    padding-left: 0px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 2px solid var(--Secondary-Dark-gray, #535353);
+    background: #131313;
+}
+
+.kcInputClass {
+    color: white !important;
+    border-radius: 6px;
+    border: 2px solid var(--Secondary-Dark-gray, #535353);
+    background: #131313 !important;
+}
+
+.kcInputGroup > .kcInputClass {
+    border: none !important;
+}
+
+.kcFormPasswordVisibilityButtonClass {
+    background: #131313 !important;
+    border: none;
+}
+.pf-c-button:after {
+    border: none !important;
+}
+.kcFormPasswordVisibilityIconShow,
+.kcFormPasswordVisibilityIconHide {
+    color: var(--Secondary-Dark-gray, #535353);
+}
+input.kcButtonClass:disabled {
+   /* Your specific styles when disabled */
+   background-color: #ccc !important;
+}
