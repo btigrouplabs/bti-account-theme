@@ -1,6 +1,10 @@
 # This file is managed by Keycloakify, do not edit it manually.
 
 # === Owned files start ===
+# account/KcPage.tsx
+# account/assets/content.ts
+# account/assets/logo.svg
+# account/personal-info/PersonalInfo.tsx
 # === Owned files end =====
 
 # === @keycloakify/keycloak-account-ui v260007.0.3 ===
@@ -11,7 +15,6 @@
 /account/KcAccountUi.tsx
 /account/i18next.d.ts
 /account/KcContext.ts
-/account/KcPage.tsx
 /account/routes.tsx
 /account/i18n/i18n.ts
 /account/i18n/index.ts
@@ -23,12 +26,10 @@
 /account/api/constants.ts
 /account/applications/Applications.tsx
 /account/groups/Groups.tsx
-/account/assets/content.ts
 /account/content/ContentComponent.tsx
 /account/oid4vci/Oid4Vci.tsx
 /account/organizations/Organizations.tsx
 /account/resources/PermissionRequest.tsx
-/account/personal-info/PersonalInfo.tsx
 /account/utils/joinPath.ts
 /account/account-security/DeviceActivity.tsx
 /account/account-security/LinkedAccountsToolbar.tsx
@@ -51,7 +52,6 @@
 /account/resources/SharedWith.tsx
 /account/assets/favicon.svg
 /account/i18n/messages_ar.properties
-/account/assets/logo.svg
 /account/i18n/messages_en.properties
 /account/i18n/messages_ca.properties
 /account/i18n/messages_da.properties
@@ -151,3 +151,68 @@
 /shared/@patternfly/react-styles/index.tsx
 /shared/@patternfly/react-table/index.tsx
 /shared/@patternfly/react-icons/index.tsx
+
+# === @keycloakify/email-native v260007.0.0 ===
+/email/theme.properties
+/email/html/email-test.ftl
+/email/messages/messages_ar.properties
+/email/text/email-update-confirmation.ftl
+/email/html/email-update-confirmation.ftl
+/email/html/email-verification-with-code.ftl
+/email/html/email-verification.ftl
+/email/html/event-login_error.ftl
+/email/html/event-update_credential.ftl
+/email/html/event-remove_credential.ftl
+/email/html/event-remove_totp.ftl
+/email/html/event-update_password.ftl
+/email/html/event-update_totp.ftl
+/email/html/event-user_disabled_by_permanent_lockout.ftl
+/email/html/event-user_disabled_by_temporary_lockout.ftl
+/email/html/executeActions.ftl
+/email/html/identity-provider-link.ftl
+/email/html/org-invite.ftl
+/email/html/template.ftl
+/email/messages/messages_ca.properties
+/email/html/password-reset.ftl
+/email/messages/messages_cs.properties
+/email/messages/messages_el.properties
+/email/messages/messages_da.properties
+/email/messages/messages_de.properties
+/email/messages/messages_en.properties
+/email/messages/messages_es.properties
+/email/messages/messages_fi.properties
+/email/messages/messages_fa.properties
+/email/messages/messages_fr.properties
+/email/messages/messages_hu.properties
+/email/messages/messages_it.properties
+/email/messages/messages_ja.properties
+/email/messages/messages_ka.properties
+/email/messages/messages_nl.properties
+/email/messages/messages_lt.properties
+/email/messages/messages_no.properties
+/email/messages/messages_pl.properties
+/email/messages/messages_pt_BR.properties
+/email/messages/messages_pt.properties
+/email/messages/messages_ru.properties
+/email/messages/messages_sk.properties
+/email/messages/messages_sv.properties
+/email/messages/messages_th.properties
+/email/messages/messages_tr.properties
+/email/messages/messages_uk.properties
+/email/text/email-test.ftl
+/email/messages/messages_zh_CN.properties
+/email/messages/messages_zh_TW.properties
+/email/text/email-verification.ftl
+/email/text/event-remove_credential.ftl
+/email/text/email-verification-with-code.ftl
+/email/text/event-login_error.ftl
+/email/text/event-remove_totp.ftl
+/email/text/event-update_credential.ftl
+/email/text/event-update_password.ftl
+/email/text/event-update_totp.ftl
+/email/text/event-user_disabled_by_permanent_lockout.ftl
+/email/text/event-user_disabled_by_temporary_lockout.ftl
+/email/text/executeActions.ftl
+/email/text/identity-provider-link.ftl
+/email/text/password-reset.ftl
+/email/text/org-invite.ftl
