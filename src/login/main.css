@@ -23,7 +23,7 @@
 }
 
 .kcBodyClass {
-    color: white;
+    background: url(./assets/background.png) no-repeat center center fixed;
 }
 
 .kcButtonClass {
@@ -73,6 +73,6 @@
     color: var(--Secondary-Dark-gray, #535353);
 }
 input.kcButtonClass:disabled {
-   /* Your specific styles when disabled */
-   background-color: #ccc !important;
+    /* Your specific styles when disabled */
+    background-color: #ccc !important;
 }
